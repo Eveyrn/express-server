@@ -10,8 +10,8 @@ app.get('/', (req, res) => {
 // Маршрут /about
 app.get('/about', (req, res) => {
   res.json({
-    name: 'Eleonora', // Замени "Eleonora" на своё имя
-    age: 16, // Пример: добавь другие данные, если нужно
+    name: 'Eleonora', 
+    age: 16, 
     hobby: 'Art and Game Design'
   });
 });
